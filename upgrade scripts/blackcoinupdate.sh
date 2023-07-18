@@ -6,9 +6,9 @@ date
 
 # Download new Blackcoin binaries
 
-wget https://blackcoinmore.org/files/blackcoin-more-armv7-v2.13.2.9-41bb016853.tar.gz
+wget https://github.com/CoinBlack/blackcoin-more/releases/download/v13.2.1/blackcoin-more-v13.2.1-c17f4182d-armv7.tar.gz
 
-tar -xzvf blackcoin-more-armv7-v2.13.2.9-41bb016853.tar.gz
+tar -xzvf blackcoin-more-v13.2.1-c17f4182d-armv7.tar.gz
 
 #make sure old binaries are removed to prevent errors
 sudo rm /usr/local/bin/blackmore*
@@ -17,7 +17,7 @@ sudo rm /usr/local/bin/blackmore*
 sudo cp blackmored blackmore-qt blackmore-tx blackmore-cli /usr/local/bin/
 
 # Delete the downloaded files // free space from device
-rm -rf blackcoin-more-armv7-v2.13.2.9-41bb016853.tar.gz
+rm -rf blackcoin-more-v13.2.1-c17f4182d-armv7.tar.gz
 rm blackmored blackmore-qt blackmore-tx blackmore-cli
 
 # end Client
